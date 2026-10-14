@@ -1,0 +1,16 @@
+{
+  "name": "@nostore/core",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./index.js",
+  "publish": {
+    "include": [
+      "index.js",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "tasks": {
+    "test": "deno test _util.test.js"
+  }
+}
